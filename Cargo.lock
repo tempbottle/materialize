@@ -517,7 +517,7 @@ dependencies = [
  "expr",
  "futures",
  "interchange",
- "itertools",
+ "itertools 0.10.0",
  "lazy_static",
  "log",
  "mz-avro",
@@ -606,7 +606,7 @@ dependencies = [
  "clap",
  "criterion-plot",
  "csv",
- "itertools",
+ "itertools 0.9.0",
  "lazy_static",
  "num-traits",
  "oorandom",
@@ -628,7 +628,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e022feadec601fba1649cfa83586381a4ad31c6bf3a9ab7d408118b05dd9889d"
 dependencies = [
  "cast",
- "itertools",
+ "itertools 0.9.0",
 ]
 
 [[package]]
@@ -738,7 +738,7 @@ dependencies = [
  "globset",
  "inotify",
  "interchange",
- "itertools",
+ "itertools 0.10.0",
  "kafka-util",
  "lazy_static",
  "log",
@@ -1058,7 +1058,7 @@ dependencies = [
  "encoding",
  "enum-iterator",
  "hmac",
- "itertools",
+ "itertools 0.10.0",
  "md-5",
  "num_enum",
  "ordered-float",
@@ -1621,7 +1621,7 @@ dependencies = [
  "differential-dataflow",
  "futures",
  "hex",
- "itertools",
+ "itertools 0.10.0",
  "lazy_static",
  "log",
  "mz-avro",
@@ -1652,6 +1652,15 @@ name = "itertools"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "284f18f85651fe11e8a991b2adb42cb078325c996ed026d994719efcfca1d54b"
+dependencies = [
+ "either",
+]
+
+[[package]]
+name = "itertools"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "37d572918e350e82412fe766d24b15e6682fb2ed2bbe018280caa810397cb319"
 dependencies = [
  "either",
 ]
@@ -1868,7 +1877,7 @@ dependencies = [
  "hex-literal",
  "hyper",
  "include_dir",
- "itertools",
+ "itertools 0.10.0",
  "jemallocator",
  "krb5-src",
  "lazy_static",
@@ -1989,7 +1998,7 @@ name = "metabase-smoketest"
 version = "0.0.0"
 dependencies = [
  "anyhow",
- "itertools",
+ "itertools 0.10.0",
  "log",
  "metabase",
  "ore",
@@ -2050,7 +2059,7 @@ dependencies = [
  "digest",
  "enum-kinds",
  "flate2",
- "itertools",
+ "itertools 0.10.0",
  "lazy_static",
  "log",
  "md-5",
@@ -2564,7 +2573,7 @@ dependencies = [
  "dataflow-types",
  "expr",
  "futures",
- "itertools",
+ "itertools 0.10.0",
  "lazy_static",
  "log",
  "openssl",
@@ -3206,7 +3215,7 @@ dependencies = [
  "criterion",
  "enum-kinds",
  "hex",
- "itertools",
+ "itertools 0.10.0",
  "ordered-float",
  "ore",
  "rand 0.8.0",
@@ -3706,7 +3715,7 @@ dependencies = [
  "futures",
  "globset",
  "interchange",
- "itertools",
+ "itertools 0.10.0",
  "lazy_static",
  "log",
  "mz-avro",
@@ -3733,7 +3742,7 @@ version = "0.0.0"
 dependencies = [
  "anyhow",
  "datadriven",
- "itertools",
+ "itertools 0.10.0",
  "lazy_static",
  "log",
  "matches",
@@ -4037,7 +4046,7 @@ dependencies = [
  "coord",
  "futures",
  "interchange",
- "itertools",
+ "itertools 0.10.0",
  "kafka-util",
  "krb5-src",
  "lazy_static",
@@ -4378,7 +4387,7 @@ dependencies = [
  "datadriven",
  "dataflow-types",
  "expr",
- "itertools",
+ "itertools 0.10.0",
  "repr",
 ]
 
@@ -4710,6 +4719,6 @@ checksum = "ec24a9273d24437afb8e71b16f3d9a5d569193cccdb7896213b59f552f387674"
 dependencies = [
  "cc",
  "glob",
- "itertools",
+ "itertools 0.9.0",
  "libc",
 ]
